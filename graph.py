@@ -57,7 +57,7 @@ for node in Graph:
 plt.figure(1)
 nx.draw_networkx_edge_labels(Graph, pos, edge_labels=label, font_size=10)
 nx.draw(Graph, pos, with_labels=True, edge_color=colors, node_color=color_map)
-plt.title(f"Solution  Graph\n\nThe Least Cost path : {ph} = {e_cost} ms\n  ", size=10)
+plt.title(f"Solution  Graph\nShortest Path: {ph} With Cost: {e_cost}", size=10)
 
 plt.figure(2)
 nx.draw_networkx_edge_labels(Graph2, pos, edge_labels=label, font_size=10)
