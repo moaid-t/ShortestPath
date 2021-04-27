@@ -46,15 +46,6 @@ for i in short_path:
     else:
         ph += f'{i}-->'
 
-bw = []
-# for i in range(len(short_path) - 1):
-#     print(f'i{short_path[i]} and {short_path[i + 1]}')
-    # bw.append(label[(short_path[i], short_path[i + 1])])
-# print(bw)
-# bw = min(bw)
-# /apply alg
-# print('Node : [Cost, Pre Node]')
-# print(get_path.get_visited_table())
 
 color_map = []
 for node in Graph:
