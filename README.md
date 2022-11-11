@@ -1,5 +1,5 @@
 # ShortestPath
-This code is about finding the shortest path using Dijkstra algorithm
+The Dijkstra algorithm is used in this script to discover the shortest path. 
 
 to run project  follow this steps
 
